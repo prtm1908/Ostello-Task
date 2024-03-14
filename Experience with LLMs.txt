@@ -1,0 +1,16 @@
+• Performed comparison research on open‑source models like Zephyr 7B Alpha and Mistral‑7B‑v0.1 to develop RAG pipelines for NCERT textbooks. (https://github.com/prtm1908/RanshInnoTask2/blob/main/rag-implementation-using-zephyrAlpha.ipynb)
+• Built a news‑aggregator app that utilizes Chain‑of‑thought prompting to perform various tasks including NER and sentence‑similarity
+to finally aggregate same content and provide a summary for all news.
+
+SUMMARIZER LLAMA
+Fine‑tuned Meta’s Llama‑2‑7B LLM from Hugging Face Hub using the QLoRA technique.
+• Utilized various tools from Transformers such as AutoTokenizers and BitsandBytes to clean the data.
+• PEFT tools were used to apply QLoRA.
+• The fine‑tuning was followed by Reinforcement Learning from Human Feedback (RLHF) using PPO Trainer so that the LLM only
+generates summaries in compliance with human’s choices.
+
+
+NEWS ARTICLE GPT (https://github.com/prtm1908/News-Articles-QnA-LangChain-RAG)
+• Implemented RAG using LangChain and GPT‑3.5 to create a LLM that answers any questions based on news articles given to it.
+• Utilized various LangChain tools to web scrape news articles with URLs and divide articles in chunks to perform chunk loading.
+• Deployed the project both on Chainlit and Streamlit frameworks.
